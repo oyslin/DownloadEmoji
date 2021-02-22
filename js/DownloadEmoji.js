@@ -102,7 +102,7 @@ function downloadSingleEmoji(trArray, i, trLen, emojiCodeStr, count, strArray) {
   i++;
   setTimeout(() => {
     downloadSingleEmoji(trArray, i, trLen, emojiCodeStr, count, strArray);
-  }, 0);
+  }, 0); // 下载图片时，延迟设置为1000ms
 }
 
 function getUnicodeData(code) {
